@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/admiral/static/css/main.d5f3f576.css",
+    "main.js": "/admiral/static/js/main.90fa1c85.js",
+    "static/media/Gilroy-Medium.woff": "/admiral/static/media/Gilroy-Medium.5329bc502cdc219ad294.woff",
+    "static/media/Gilroy-UltraLight.woff": "/admiral/static/media/Gilroy-UltraLight.9169fa71e31912724922.woff",
+    "static/media/Gilroy-Bold.woff": "/admiral/static/media/Gilroy-Bold.0607a1bc636f63251ed8.woff",
+    "static/media/Gilroy-Semibold.woff": "/admiral/static/media/Gilroy-Semibold.5b042906a8b58ec4633e.woff",
+    "static/media/Gilroy-Black.woff": "/admiral/static/media/Gilroy-Black.a9df216db6a98486e2d4.woff",
+    "static/media/Gilroy-Light.woff": "/admiral/static/media/Gilroy-Light.368f09f56e89b3fe11c7.woff",
+    "static/media/Gilroy-Thin.woff": "/admiral/static/media/Gilroy-Thin.4b118de09ea43bdca930.woff",
+    "static/media/Gilroy-Heavy.woff": "/admiral/static/media/Gilroy-Heavy.406f336a83b15e582953.woff",
+    "static/media/Gilroy-Regular.woff": "/admiral/static/media/Gilroy-Regular.ebe86c0337572553acea.woff",
+    "static/media/Gilroy-Extrabold.woff": "/admiral/static/media/Gilroy-Extrabold.f39ff81c45c126012265.woff",
+    "index.html": "/admiral/index.html",
+    "main.d5f3f576.css.map": "/admiral/static/css/main.d5f3f576.css.map",
+    "main.90fa1c85.js.map": "/admiral/static/js/main.90fa1c85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5f3f576.css",
+    "static/js/main.90fa1c85.js"
+  ]
+}
