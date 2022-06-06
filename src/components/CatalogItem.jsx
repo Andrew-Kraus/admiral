@@ -29,7 +29,7 @@ const CatalogItem = (props) => {
                 onHide={() => setModalShow(false)}
                 title='Заказать'
                 subtitle='Как сделать заказ?'
-                src={process.env.PUBLIC_URL + './example.png'}
+                src={process.env.PUBLIC_URL + '/example.png'}
                 price={militaryData[modalId].price}
             />
         </motion.div>
