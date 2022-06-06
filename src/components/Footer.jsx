@@ -26,10 +26,10 @@ const Footer = () => {
                     <p className='footer__text'>E-mail: poshivformi@mail.ru</p>
                     <div className='footer__icons'>
                         <a href='https://vk.com/poshivformiru'>
-                            <img src={process.env.PUBLIC_URL + './vk.png'} className='footer__icon' alt=''></img>
+                            <img src={process.env.PUBLIC_URL + '/vk.png'} className='footer__icon' alt=''></img>
                         </a>
-                        <Popovers info='ID телеграмм' src={process.env.PUBLIC_URL + './telegram.png'} />
-                        <Popovers info='Номер телефона' src={process.env.PUBLIC_URL + './whatsapp.png'} />
+                        <Popovers info='ID телеграмм' src={process.env.PUBLIC_URL + '/telegram.png'} />
+                        <Popovers info='Номер телефона' src={process.env.PUBLIC_URL + '/whatsapp.png'} />
                     </div>
                 </div>
             </div>
