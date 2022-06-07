@@ -36,7 +36,7 @@ const CatalogModal = (props) => {
                         </p>
                     </div>
                     <div className='catalog-modal__info'>
-                        <p className='catalog-modal__price'>Стоимость: {props.price}</p>
+                        <p className='catalog-modal__price'>Стоимость: <span className='catalog-modal__price-count'>{props.price}</span></p>
                         <div className='catalog-modal__size'>
                             <Table striped bordered hover>
                                 <thead>

@@ -77,7 +77,7 @@ a:hover {
 
 .carousel-caption {
   left: 5% !important;
-  top: 18% !important;
+  top: 24% !important;
   bottom: 0 !important;
   right: 0 !important;
   text-align: left !important;
@@ -89,15 +89,16 @@ a:hover {
   z-index: 55 !important;
 }
 
+
 .slider__title {
-  font-size: 100px;
+  font-size: 150px;
   font-family: 'Gilroy Black';
 }
 
 .slider__subtitle {
-  font-size: 40px;
-  font-weight: 300;
-  line-height: 50px;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 60px;
 }
 
 .slider__button {
@@ -168,6 +169,7 @@ a:hover {
 
 .services__image {
   width: 850px;
+  border-radius: 12px;
 }
 
 .catalog {
@@ -213,6 +215,7 @@ a:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
   opacity: 1;
   justify-content: space-between;
+  border-radius: 12px;
 }
 
 .catalog__item-exit-active {
@@ -229,6 +232,7 @@ a:hover {
   text-align: center;
   width: 90%;
   height: 67px;
+  font-size: 25px;
 }
 
 .catalog__item-img {
@@ -333,6 +337,7 @@ a:hover {
 
 .uniform__image {
   width: 48%;
+  border-radius: 12px;
 }
 
 .uniform__container-text {
@@ -455,10 +460,17 @@ a:hover {
 
 .uniform-modal__container {
   display: flex;
+  justify-content: space-between;
 }
 
 .uniform-modal__image {
-  width: 300px;
+  width: 400px;
+  height: 300px;
+  border-radius: 12px;
+}
+
+.uniform-modal__text {
+  width: 350px;
 }
 
 .modal-text {
@@ -502,6 +514,10 @@ a:hover {
   font-size: 20px;
   font-weight: 800;
   margin-top: 50px;
+}
+
+.catalog-modal__price-count {
+  color: #4e8cff;
 }
 
 @keyframes fade-out {

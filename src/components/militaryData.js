@@ -5,13 +5,13 @@ const militaryData = [
         id: uuidv4(),
         title: 'Тужурка',
         img: process.env.PUBLIC_URL + '/example.png',
-        price: '15000р',
+        price: '15 000р',
     },
     {
         id: uuidv4(),
         title: 'Тужурка белая',
         img: process.env.PUBLIC_URL + '/example.png',
-        price: '17000р',
+        price: '17 000р',
     },
     {
         id: uuidv4(),
