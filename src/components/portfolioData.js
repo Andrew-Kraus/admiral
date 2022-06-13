@@ -11,10 +11,6 @@ const portfolioData = [
     },
     {
         id: uuidv4(),
-        src: process.env.PUBLIC_URL + '/port-3.png',
-    },
-    {
-        id: uuidv4(),
         src: process.env.PUBLIC_URL + '/port-4.png',
     },
     {
@@ -51,15 +47,7 @@ const portfolioData = [
     },
     {
         id: uuidv4(),
-        src: process.env.PUBLIC_URL + '/port-13.png',
-    },
-    {
-        id: uuidv4(),
         src: process.env.PUBLIC_URL + '/port-14.png',
-    },
-    {
-        id: uuidv4(),
-        src: process.env.PUBLIC_URL + '/port-15.png',
     },
     {
         id: uuidv4(),

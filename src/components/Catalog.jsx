@@ -48,10 +48,9 @@ const Catalog = () => {
                     transition={{
                         default: { duration: 0.5 },
                     }}
-                    className='catalog__grid'>
-                    {civilianData.slice(0, size).map((obj, index) => {
-                        return <CatalogItem title={obj.title} img={obj.img} price={obj.price} key={obj.id} id={index.toString()}/>
-                    })}
+                    className='catalog__not-found'>
+                        <img className='catalog__not-found-image' src={process.env.PUBLIC_URL + '/not-found.png'} alt=''></img>
+                        <p className='catalog__not-found-text'>Пока что мы не занимаемся гражданской одеждой.</p>
                 </motion.div>}
                 <Button onClick={() => changeSize()} className='more-button' variant="outline-primary">Показать еще</Button>{' '}
             </div>

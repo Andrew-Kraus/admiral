@@ -8,7 +8,7 @@ const Slider = () => {
   return (
     <section className='slider' id='slider'>
       <div className='container'>
-        <Carousel>
+        <Carousel className='slider__carousel'>
           <Carousel.Item>
             <img
               className="d-block w-100"
@@ -56,6 +56,36 @@ const Slider = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
+              src={process.env.PUBLIC_URL + '/mchs-slider.png'}
+              alt="Third slide"
+            />
+
+            <Carousel.Caption>
+              <h2 className='slider__title'>АдмиралЪ</h2>
+              <h3 className='slider__subtitle'>Производство военной и гражданской одежды.</h3>
+              <a href='#uniform'>
+                <Button className='slider__button' variant="primary" size="lg">Подробнее</Button>{' '}
+              </a>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={process.env.PUBLIC_URL + '/kadeti-slider.png'}
+              alt="Third slide"
+            />
+
+            <Carousel.Caption>
+              <h2 className='slider__title'>АдмиралЪ</h2>
+              <h3 className='slider__subtitle'>Производство военной и гражданской одежды.</h3>
+              <a href='#uniform'>
+                <Button className='slider__button' variant="primary" size="lg">Подробнее</Button>{' '}
+              </a>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
               src={process.env.PUBLIC_URL + '/rosgv-slider.png'}
               alt="Third slide"
             />
@@ -87,21 +117,6 @@ const Slider = () => {
             <img
               className="d-block w-100"
               src={process.env.PUBLIC_URL + '/fsin-slider.png'}
-              alt="Third slide"
-            />
-
-            <Carousel.Caption>
-              <h2 className='slider__title'>АдмиралЪ</h2>
-              <h3 className='slider__subtitle'>Производство военной и гражданской одежды.</h3>
-              <a href='#uniform'>
-                <Button className='slider__button' variant="primary" size="lg">Подробнее</Button>{' '}
-              </a>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={process.env.PUBLIC_URL + '/mchs-slider.png'}
               alt="Third slide"
             />
 
