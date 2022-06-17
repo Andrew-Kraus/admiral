@@ -21,9 +21,12 @@ const CatalogItem = (props) => {
             }}
             className='catalog__item'
         >
-            <h3 className='catalog__item-title'>{props.title}</h3>
-            <img className='catalog__item-img' src={props.img} alt=''></img>
-            <Button onClick={(e) => modalRender(e.target.id)} className='catalog__item-price' variant="outline-primary" id={props.id}>{props.price}</Button>{' '}
+            <div className='catalog__item-content' id={props.id}
+                onClick={(e) => modalRender(e.target.id)}>
+                <h3 className='catalog__item-title' id={props.id}>{props.title}</h3>
+                <img className='catalog__item-img' src={props.img} alt='' id={props.id}></img>
+                <Button className='catalog__item-price' variant="outline-primary" id={props.id}>{props.price}</Button>{' '}
+            </div>
             <CatalogModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}

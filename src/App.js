@@ -10,12 +10,14 @@ import Portfolio from './components/Portfolio';
 import Uniform from './components/Uniform';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
+import About from './components/About';
 
 function App() {
   return (
     <div className='page'>
       <Header />
       <Slider />
+      <About />
       <Services />
       <Catalog />
       <Delivery />
