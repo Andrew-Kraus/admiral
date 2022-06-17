@@ -4,7 +4,7 @@ const militaryData = [
     {
         id: uuidv4(),
         title: 'Китель церемониальный (РПК)',
-        img: process.env.PUBLIC_URL + '/ceremonia.png',
+        img: process.env.PUBLIC_URL + '/ceremonia-catalog.png',
         price: '75 000р',
     },
     {
@@ -34,7 +34,7 @@ const militaryData = [
     {
         id: uuidv4(),
         title: 'Куртка офисная на пуговицах',
-        img: process.env.PUBLIC_URL + '/kurtka-pugovici.png',
+        img: process.env.PUBLIC_URL + '/kurtka-pugovici-catalog.png',
         price: '4000р',
     },
     {
@@ -52,7 +52,7 @@ const militaryData = [
     {
         id: uuidv4(),
         title: 'Офисная форма МЧС (новый образец) с шевроном',
-        img: process.env.PUBLIC_URL + '/mchs-catalog.png',
+        img: process.env.PUBLIC_URL + '/mchs-catalog-kostum.png',
         price: '7000р',
     },
     {
