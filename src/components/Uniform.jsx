@@ -14,7 +14,7 @@ const Uniform = () => {
               <Carousel.Item>
                 <img
                   className="d-block w-100 uniform__image"
-                  src={process.env.PUBLIC_URL + '/vmf.jpg'}
+                  src={process.env.PUBLIC_URL + '/vmf.png'}
                   alt="First slide"
                 />
               </Carousel.Item>
@@ -57,13 +57,6 @@ const Uniform = () => {
                 <img
                   className="d-block w-100 uniform__image"
                   src={process.env.PUBLIC_URL + '/fssp.png'}
-                  alt="Second slide"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100 uniform__image"
-                  src={process.env.PUBLIC_URL + '/fsin.png'}
                   alt="Second slide"
                 />
               </Carousel.Item>

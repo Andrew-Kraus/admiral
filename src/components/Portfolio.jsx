@@ -31,7 +31,7 @@ const Portfolio = () => {
             </motion.div>
           })}
         </div>
-        <Button onClick={() => setSize(size + 4)} className='more-button' variant="outline-primary">Показать еще</Button>{' '}
+        {size < portfolioData.length && <Button onClick={() => setSize(size + 4)} className='more-button' variant="outline-primary">Показать еще</Button>}
       </div>
       <div onClick={() => setActive(false)} className={isActive ? 'portfolio__modal active' : 'portfolio__modal'}>
         <img onClick={e => e.stopPropagation()} className={isActive ? 'portfolio__modal-content active' : 'portfolio__modal-content'} src={currentImage} alt=''></img>

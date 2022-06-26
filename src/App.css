@@ -314,7 +314,7 @@ a:hover {
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 30px;
-  width: 100px;
+  width: 108px;
   align-self: baseline;
 }
 
@@ -614,7 +614,7 @@ a:hover {
 }
 
 .catalog-modal__price {
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 800;
 }
 
@@ -631,6 +631,23 @@ a:hover {
 
 .catalog-modal__price-count {
   color: #4e8cff;
+}
+
+.contacts__subtitle-phone {
+  margin-top: 0;
+}
+
+.contacts__subtitle-adress {
+  margin-bottom: 10px;
+}
+
+.catalog-modal__cloth {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.catalog-modal__cloth span {
+  font-weight: 100;
 }
 
 @keyframes fade-out {

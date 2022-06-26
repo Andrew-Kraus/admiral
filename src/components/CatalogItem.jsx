@@ -30,10 +30,11 @@ const CatalogItem = (props) => {
             <CatalogModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}
-                title='Заказать'
-                subtitle='Как сделать заказ?'
+                title={militaryData[modalId].title}
                 src={militaryData[modalId].img}
                 price={militaryData[modalId].price}
+                cloth={militaryData[modalId].cloth}
+                comp={militaryData[modalId].comp}
             />
         </motion.div>
     )

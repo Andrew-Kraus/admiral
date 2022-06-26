@@ -52,7 +52,7 @@ const Catalog = () => {
                         <img className='catalog__not-found-image' src={process.env.PUBLIC_URL + '/not-found.png'} alt=''></img>
                         <p className='catalog__not-found-text'>Пока что мы не занимаемся гражданской одеждой.</p>
                 </motion.div>}
-                <Button onClick={() => changeSize()} className='more-button' variant="outline-primary">Показать еще</Button>{' '}
+                {size < militaryData.length && isActive && <Button onClick={() => changeSize()} className='more-button' variant="outline-primary">Показать еще</Button>}
             </div>
         </section>
     )

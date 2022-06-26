@@ -3,14 +3,6 @@ import { v4 as uuidv4 } from "uuid";
 const portfolioData = [
     {
         id: uuidv4(),
-        src: process.env.PUBLIC_URL + '/port-1.png',
-    },
-    {
-        id: uuidv4(),
-        src: process.env.PUBLIC_URL + '/port-2.png',
-    },
-    {
-        id: uuidv4(),
         src: process.env.PUBLIC_URL + '/port-4.png',
     },
     {
@@ -20,6 +12,14 @@ const portfolioData = [
     {
         id: uuidv4(),
         src: process.env.PUBLIC_URL + '/port-6.png',
+    },
+    {
+        id: uuidv4(),
+        src: process.env.PUBLIC_URL + '/port-1.png',
+    },
+    {
+        id: uuidv4(),
+        src: process.env.PUBLIC_URL + '/port-2.png',
     },
     {
         id: uuidv4(),

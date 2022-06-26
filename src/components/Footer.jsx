@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='footer__container'>
                 <div className='footer__item'>
                     <h3 className='footer__title'>Реквизиты</h3>
-                    <p className='footer__text'>ООО "Адмиралъ"</p>
+                    <p className='footer__text'>ООО "АдмиралЪ"</p>
                     <p className='footer__text'>ИНН 7810759039</p>
                     <p className='footer__text'>КПП 781001001</p>
                     <p className='footer__text'>ОГРН 1197847123341</p>
