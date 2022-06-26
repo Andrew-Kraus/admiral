@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/admiral/static/css/main.e9a67dcb.css",
-    "main.js": "/admiral/static/js/main.5d96c444.js",
+    "main.css": "/admiral/static/css/main.c2f04f19.css",
+    "main.js": "/admiral/static/js/main.5bd2cadb.js",
     "static/media/Gilroy-Medium.woff": "/admiral/static/media/Gilroy-Medium.5329bc502cdc219ad294.woff",
     "static/media/Gilroy-UltraLight.woff": "/admiral/static/media/Gilroy-UltraLight.9169fa71e31912724922.woff",
     "static/media/Gilroy-Bold.woff": "/admiral/static/media/Gilroy-Bold.0607a1bc636f63251ed8.woff",
@@ -13,11 +13,11 @@
     "static/media/Gilroy-Regular.woff": "/admiral/static/media/Gilroy-Regular.ebe86c0337572553acea.woff",
     "static/media/Gilroy-Extrabold.woff": "/admiral/static/media/Gilroy-Extrabold.f39ff81c45c126012265.woff",
     "index.html": "/admiral/index.html",
-    "main.e9a67dcb.css.map": "/admiral/static/css/main.e9a67dcb.css.map",
-    "main.5d96c444.js.map": "/admiral/static/js/main.5d96c444.js.map"
+    "main.c2f04f19.css.map": "/admiral/static/css/main.c2f04f19.css.map",
+    "main.5bd2cadb.js.map": "/admiral/static/js/main.5bd2cadb.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9a67dcb.css",
-    "static/js/main.5d96c444.js"
+    "static/css/main.c2f04f19.css",
+    "static/js/main.5bd2cadb.js"
   ]
 }
