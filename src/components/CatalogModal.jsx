@@ -20,7 +20,7 @@ const CatalogModal = (props) => {
                         <img className='catalog-modal__image' src={props.src} alt='' />
                         <p className='catalog-modal__title'>Процесс оформления заказа:</p>
                         <p className='modal-text'>
-                            1. Позвонить по номеру <span className='modal-phone'>8 (963) 319-90-002</span>.
+                            1. Позвонить по номеру <span className='modal-phone'>8 (963) 319-90-00</span>.
                         </p>
                         <p className='modal-text'>
                             2. Выявление потребности, уточнить все параметры товара.
