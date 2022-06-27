@@ -90,7 +90,7 @@ const CatalogModal = (props) => {
                             </Table>
                         </div>
                         <p className='catalog-modal__cloth'>Ткань: <span>{props.cloth}</span></p>
-                        <p className='catalog-modal__cloth'>Состав: <span>{props.comp}</span></p>
+                        {props.comp !== 0 && <p className='catalog-modal__cloth'>Состав: <span>{props.comp}</span></p>}
                     </div>
                 </div>
             </Modal.Body>

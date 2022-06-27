@@ -17,7 +17,7 @@ const ModalInfo = (props) => {
       <Modal.Body>
         <h4>{props.subtitle}</h4>
         <p className='modal-text'>
-        1. Позвонить по номеру <span className='modal-phone'>8 (963) 319-90-002</span>.
+        1. Позвонить по номеру <span className='modal-phone'>8 (963) 319-90-00</span>.
         </p>
         <p className='modal-text'>
         2. Выявление потребности, уточнить все параметры товара.
