@@ -123,7 +123,7 @@ const militaryData = [
     },
     {
         id: uuidv4(),
-        title: 'Костюм ВВС, ВДВ (синий) новый образец',
+        title: 'Костюм ВКС, ВДВ (синий) новый образец',
         img: process.env.PUBLIC_URL + '/vdv.png',
         price: 'от 19 000₽',
         cloth: 'Полушерсть',

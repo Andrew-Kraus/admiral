@@ -7,9 +7,9 @@ const header = () => {
       <div className='header__container'>
         <a href='#slider'>
           <div className='header__logo-container'>
-            <img className='header__logo' src={process.env.PUBLIC_URL + '/logo-admiral.png'} alt=''></img>
+            <img className='header__logo' src={process.env.PUBLIC_URL + '/old-logo.png'} alt=''></img>
             <div className='header__logo-text-container'>
-              <h4 className='header__logo-text'>Admiral Fashion</h4>
+              <h4 className='header__logo-text'>АдмиралЪ</h4>
             </div>
           </div>
         </a>
